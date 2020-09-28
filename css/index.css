@@ -301,6 +301,10 @@ footer .follows{
         flex-direction: column;
 
     }
+
+    .container .card a{
+      color:black;
+    }
     footer .follows  a{
         color:black;
         justify-content: center;
