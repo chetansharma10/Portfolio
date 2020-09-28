@@ -51,6 +51,11 @@ a:hover{
 
 @media(max-width:446px){
 
+    
+    
+     .card .details a{
+        color:black;
+    }
     #mess{
         display: none;
     }
