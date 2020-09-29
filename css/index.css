@@ -288,14 +288,14 @@ img{
 
 
     }
-       .card{
-        margin-left: 10%;
-    }
 
     .slogan2{
-        margin-bottom: 200px;
-        margin-top: 300px;
+        margin-bottom: 50px;
+        margin-top: 50px;
        
+    }
+    .card{
+        margin-left: 100px;
     }
     footer{
         margin-top: 100px;
