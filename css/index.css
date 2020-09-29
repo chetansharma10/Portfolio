@@ -51,11 +51,6 @@ a:hover{
 
 @media(max-width:446px){
 
-    
-    
-     .card .details a{
-        color:black;
-    }
     #mess{
         display: none;
     }
@@ -65,6 +60,9 @@ a:hover{
         justify-content: center;
         align-items: center;
         
+    }
+    .card .details a i{
+        color:black;
     }
     ul{
         display: flex;
@@ -169,7 +167,7 @@ img{
     height: 200vh;
     
     display: flex;
-    margin-bottom: 10px;
+   
     flex-direction: column;
     
 
@@ -189,6 +187,7 @@ img{
     justify-items: center;
     align-items: center;
     justify-content: center;
+    align-content: center;
     height: 200vh;
     column-gap: 30px;
     grid-template-columns: repeat(3,250px);
@@ -237,6 +236,8 @@ img{
         grid-template-columns: repeat(2,250px);
     grid-template-rows:repeat(2,300px);
 
+
+
     }
 
 
@@ -248,8 +249,19 @@ img{
 
     #projects .container{
         grid-template-columns: repeat(1,250px);
+        justify-content: center;
+        align-content: center;
+        margin-top: 350px;
     grid-template-rows:repeat(2,300px);
 
+    }
+    #projects .slogan2{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .card{
+
+        margin-left: 15px;
     }
 
 
