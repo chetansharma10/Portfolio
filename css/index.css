@@ -188,10 +188,7 @@ img{
     width: 100%;
     display: grid;
     row-gap: 30px;
-    justify-items: center;
-    align-items: center;
     justify-content: center;
-    align-content: center;
     height: 200vh;
     column-gap: 30px;
     grid-template-columns: repeat(3,250px);
@@ -200,7 +197,8 @@ img{
 }
 .card{
     width: 250px;
-    margin: 10px;
+   
+
     height: 320px;
     border-radius: 5px;
     box-shadow: -1px 0px 14px 1px #929090;
@@ -236,70 +234,29 @@ img{
 
 @media(max-width:852px) and (min-width:569px){
 
-    #projects .container{
-        grid-template-columns: repeat(2,250px);
+ #projects .container{
+    grid-template-columns: repeat(2,250px);
     grid-template-rows:repeat(2,300px);
-
-
-
-    }
+ }
 
 
 }
 
 
 
-@media(max-width:569px) {
 
+@media(max-width:589px){
     #projects .container{
         grid-template-columns: repeat(1,250px);
-        justify-content: center;
-        align-content: center;
-        margin-top: 300px;
-       grid-template-rows:repeat(2,300px);
-       grid-column-gap: 150px;
-      
-       grid-row-gap: 100px;
-
-
+        grid-template-rows:repeat(auto,300px);
+        row-gap: 100px;
+        padding-left: 10px;
     }
     .card{
-        margin-left: 10%;
-    }
-    .slogan2{
-        margin-bottom: 200px;
-       
+        margin:auto;
     }
 
 
-
-}
-
-@media(max-width:300px){
-    #projects .container{
-        grid-template-columns: repeat(1,250px);
-        justify-content: center;
-        align-content: center;
-        margin-top: 300px;
-       grid-template-rows:repeat(5,300px);
-       grid-column-gap: 150px;
-       margin-bottom: 100px;
-       grid-row-gap: 100px;
-
-
-    }
-
-    .slogan2{
-        margin-bottom: 50px;
-        margin-top: 50px;
-       
-    }
-    .card{
-        margin-left: 100px;
-    }
-    footer{
-        margin-top: 100px;
-    }
 }
 
 
